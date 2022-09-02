@@ -134,6 +134,7 @@ const CustomForm = () => {
 				error={formErrors.availability}
 			/>
 			<CurrencyField id='space-price' error={formErrors.price} />
+			<CurrencyField id='space-price' error={formErrors.price} />
 			<PhoneNumberField
 				id='space-phone-number'
 				onChange={handleInputUpdate}
